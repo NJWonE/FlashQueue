@@ -1,6 +1,16 @@
 # Product Requirements
 
 ## 1. User
+- id
+- 성명
+- 로그인 아이디
+- 로그인 패스워드
+- 주민번호
+- 주소
+- 우편번호
+- 생성일시
+- 수정일시
+- 사용여부
 
 #### Requirements
 

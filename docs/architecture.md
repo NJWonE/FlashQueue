@@ -27,7 +27,7 @@
 ### Domain
 
 * 핵심 비즈니스 데이터를 표현한다.
-* 해당 도메인의 핵심 변경로직은 Entity 내부에 작성한다.
+* 각 도메인의 조회 및 변경 등 도메인 관련 기능 로직은 도메인 내부에 작성한다.
 
 ## 3. Dependency Direction
 
@@ -37,4 +37,5 @@
 
 ## 4. Authentication
 
-* 인증 방식은 JWT 기반으로 구성한다.
+* Spring Security 를 사용한다.
+* 인증 방식은 JWT 기반으로 AccessToken 과 RefreshToken 을 사용한다.
