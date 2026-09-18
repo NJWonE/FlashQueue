@@ -33,3 +33,8 @@
 
 * 의존성은 가능한 한 다음 방향을 따른다. Controller → Service → Repository
 * Controller가 Repository를 직접 호출하지 않는다.
+
+
+## 4. Authentication
+
+* 인증 방식은 JWT 기반으로 구성한다.
