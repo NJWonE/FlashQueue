@@ -9,7 +9,7 @@
 
 ## 2. Database
 
-* 테스트는 H2 DB 를 사용한다.
+* 테스트에서만 H2 DB 를 사용한다.
 * Database Schema 변경은 Flyway Migration을 통해 수행한다.
 * 기존 Flyway Migration 파일은 수정하지 않는다.
 * 새로운 Schema 변경은 새로운 Migration 파일로 추가한다.
