@@ -6,10 +6,13 @@
 * 요구사항에 명시되지 않은 기능을 임의로 추가하지 않는다.
 * 기존 아키텍처를 변경할 필요가 있다면 그 이유를 먼저 확인한다.
 * Lombok 으로 대체할 수 있는 코드는 대체한다.
-* application.properties 파일은 수정하지 않는다.
+* `src/main/resources/application.properties`는 절대 수정하지 않는다.
+* 테스트를 위한 설정은 `src/test/resources`의 테스트 전용 설정 또는 Spring Test Profile을 사용한다.
+* 테스트 목적의 설정을 추가하기 위해 `src/main/resources`의 애플리케이션 설정을 변경하지 않는다.
 
 ## 2. Database
 
+* 애플리케이션의 기본 Database는 PostgreSQL이다.
 * Database Schema 변경은 Flyway Migration을 통해 수행한다.
 * 기존 Flyway Migration 파일은 수정하지 않는다.
 * 새로운 Schema 변경은 새로운 Migration 파일로 추가한다.
