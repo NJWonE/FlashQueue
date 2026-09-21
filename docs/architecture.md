@@ -40,3 +40,4 @@
 * Spring Security 를 사용한다.
 * JWT Filter 를 통해 사용자 요청에 인증 정보를 유지한다.
 * 인증 방식은 JWT 기반으로 AccessToken 과 RefreshToken 을 사용한다.
+* Secure Cookie를 사용한다.

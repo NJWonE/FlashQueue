@@ -5,10 +5,10 @@
 * 기존 코드를 수정할 때 기존 동작을 불필요하게 변경하지 않는다.
 * 요구사항에 명시되지 않은 기능을 임의로 추가하지 않는다.
 * 기존 아키텍처를 변경할 필요가 있다면 그 이유를 먼저 확인한다.
+* application.properties 파일은 수정하지 않는다.
 
 ## 2. Database
 
-* PostgreSQL을 사용한다.
 * 테스트는 H2 DB 를 사용한다.
 * Database Schema 변경은 Flyway Migration을 통해 수행한다.
 * 기존 Flyway Migration 파일은 수정하지 않는다.
